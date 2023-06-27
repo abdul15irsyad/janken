@@ -1,0 +1,17 @@
+:root{
+  --bs-primary-25: #0d6dfd40;
+  --bs-primary: #0d6efd;
+}
+
+.hand{
+  cursor: pointer;
+}
+
+.hand:hover{
+  background-color: var(--bs-primary-25) !important;
+}
+
+.hand.choose{
+  background-color: var(--bs-primary) !important;
+  color: #fff;
+}
